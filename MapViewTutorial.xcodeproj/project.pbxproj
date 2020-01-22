@@ -7,15 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		913F9B8723CA07D7001FAF7D /* Park.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913F9B8623CA07D7001FAF7D /* Park.swift */; };
+		913F9B8923CA380D001FAF7D /* ParkMapOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913F9B8823CA380D001FAF7D /* ParkMapOverlay.swift */; };
+		913F9B8B23CA38FB001FAF7D /* ParkMapOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913F9B8A23CA38FB001FAF7D /* ParkMapOverlayView.swift */; };
+		913F9B8D23CA3F99001FAF7D /* AttractionAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913F9B8C23CA3F99001FAF7D /* AttractionAnnotation.swift */; };
+		913F9B8F23CA4213001FAF7D /* AttractionAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913F9B8E23CA4213001FAF7D /* AttractionAnnotationView.swift */; };
+		913F9B9123CA5D98001FAF7D /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913F9B9023CA5D98001FAF7D /* Character.swift */; };
 		91A899B023C74DB900ECED74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A899AF23C74DB900ECED74 /* AppDelegate.swift */; };
 		91A899B223C74DB900ECED74 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A899B123C74DB900ECED74 /* SceneDelegate.swift */; };
 		91A899B423C74DB900ECED74 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A899B323C74DB900ECED74 /* ViewController.swift */; };
 		91A899B723C74DBA00ECED74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91A899B523C74DBA00ECED74 /* Main.storyboard */; };
 		91A899B923C74DBD00ECED74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91A899B823C74DBD00ECED74 /* Assets.xcassets */; };
 		91A899BC23C74DBD00ECED74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91A899BA23C74DBD00ECED74 /* LaunchScreen.storyboard */; };
+		91A899C423C763EC00ECED74 /* PublicArt.json in Resources */ = {isa = PBXBuildFile; fileRef = 91A899C323C763EC00ECED74 /* PublicArt.json */; };
+		91A899C623C766B300ECED74 /* Artwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A899C523C766B300ECED74 /* Artwork.swift */; };
+		91A899C823C8644A00ECED74 /* ArtworkViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A899C723C8644A00ECED74 /* ArtworkViews.swift */; };
+		91A899D323C8A35100ECED74 /* BatmanLocations.plist in Resources */ = {isa = PBXBuildFile; fileRef = 91A899CD23C8A35000ECED74 /* BatmanLocations.plist */; };
+		91A899D423C8A35100ECED74 /* EntranceToGoliathRoute.plist in Resources */ = {isa = PBXBuildFile; fileRef = 91A899CE23C8A35000ECED74 /* EntranceToGoliathRoute.plist */; };
+		91A899D523C8A35100ECED74 /* TweetyBirdLocations.plist in Resources */ = {isa = PBXBuildFile; fileRef = 91A899CF23C8A35000ECED74 /* TweetyBirdLocations.plist */; };
+		91A899D623C8A35100ECED74 /* TazLocations.plist in Resources */ = {isa = PBXBuildFile; fileRef = 91A899D023C8A35000ECED74 /* TazLocations.plist */; };
+		91A899D723C8A35100ECED74 /* MagicMountainAttractions.plist in Resources */ = {isa = PBXBuildFile; fileRef = 91A899D123C8A35100ECED74 /* MagicMountainAttractions.plist */; };
+		91A899D823C8A35100ECED74 /* MagicMountain.plist in Resources */ = {isa = PBXBuildFile; fileRef = 91A899D223C8A35100ECED74 /* MagicMountain.plist */; };
+		91A899DD23C8B0D100ECED74 /* ParkMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A899DC23C8B0D100ECED74 /* ParkMapViewController.swift */; };
+		91A899DF23C8B0F300ECED74 /* MapOptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A899DE23C8B0F300ECED74 /* MapOptionsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		913F9B8623CA07D7001FAF7D /* Park.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Park.swift; sourceTree = "<group>"; };
+		913F9B8823CA380D001FAF7D /* ParkMapOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkMapOverlay.swift; sourceTree = "<group>"; };
+		913F9B8A23CA38FB001FAF7D /* ParkMapOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkMapOverlayView.swift; sourceTree = "<group>"; };
+		913F9B8C23CA3F99001FAF7D /* AttractionAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttractionAnnotation.swift; sourceTree = "<group>"; };
+		913F9B8E23CA4213001FAF7D /* AttractionAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttractionAnnotationView.swift; sourceTree = "<group>"; };
+		913F9B9023CA5D98001FAF7D /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
 		91A899AC23C74DB900ECED74 /* MapViewTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapViewTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91A899AF23C74DB900ECED74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		91A899B123C74DB900ECED74 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +47,17 @@
 		91A899B823C74DBD00ECED74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		91A899BB23C74DBD00ECED74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		91A899BD23C74DBD00ECED74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91A899C323C763EC00ECED74 /* PublicArt.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PublicArt.json; sourceTree = "<group>"; };
+		91A899C523C766B300ECED74 /* Artwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artwork.swift; sourceTree = "<group>"; };
+		91A899C723C8644A00ECED74 /* ArtworkViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtworkViews.swift; sourceTree = "<group>"; };
+		91A899CD23C8A35000ECED74 /* BatmanLocations.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = BatmanLocations.plist; sourceTree = "<group>"; };
+		91A899CE23C8A35000ECED74 /* EntranceToGoliathRoute.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = EntranceToGoliathRoute.plist; sourceTree = "<group>"; };
+		91A899CF23C8A35000ECED74 /* TweetyBirdLocations.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TweetyBirdLocations.plist; sourceTree = "<group>"; };
+		91A899D023C8A35000ECED74 /* TazLocations.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TazLocations.plist; sourceTree = "<group>"; };
+		91A899D123C8A35100ECED74 /* MagicMountainAttractions.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MagicMountainAttractions.plist; sourceTree = "<group>"; };
+		91A899D223C8A35100ECED74 /* MagicMountain.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MagicMountain.plist; sourceTree = "<group>"; };
+		91A899DC23C8B0D100ECED74 /* ParkMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkMapViewController.swift; sourceTree = "<group>"; };
+		91A899DE23C8B0F300ECED74 /* MapOptionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapOptionsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +90,72 @@
 		91A899AE23C74DB900ECED74 /* MapViewTutorial */ = {
 			isa = PBXGroup;
 			children = (
+				91A899C923C8A2D100ECED74 /* Annotaition */,
+				91A899CC23C8A31500ECED74 /* Park Information */,
+				91A899D923C8A39200ECED74 /* Models */,
+				91A899DA23C8A3AF00ECED74 /* Overlays */,
+				91A899DB23C8A3C800ECED74 /* ParkView ViewControllers */,
 				91A899AF23C74DB900ECED74 /* AppDelegate.swift */,
 				91A899B123C74DB900ECED74 /* SceneDelegate.swift */,
 				91A899B323C74DB900ECED74 /* ViewController.swift */,
+				91A899C723C8644A00ECED74 /* ArtworkViews.swift */,
+				91A899C523C766B300ECED74 /* Artwork.swift */,
 				91A899B523C74DBA00ECED74 /* Main.storyboard */,
+				91A899C323C763EC00ECED74 /* PublicArt.json */,
 				91A899B823C74DBD00ECED74 /* Assets.xcassets */,
 				91A899BA23C74DBD00ECED74 /* LaunchScreen.storyboard */,
 				91A899BD23C74DBD00ECED74 /* Info.plist */,
 			);
 			path = MapViewTutorial;
+			sourceTree = "<group>";
+		};
+		91A899C923C8A2D100ECED74 /* Annotaition */ = {
+			isa = PBXGroup;
+			children = (
+				913F9B8C23CA3F99001FAF7D /* AttractionAnnotation.swift */,
+				913F9B8E23CA4213001FAF7D /* AttractionAnnotationView.swift */,
+			);
+			path = Annotaition;
+			sourceTree = "<group>";
+		};
+		91A899CC23C8A31500ECED74 /* Park Information */ = {
+			isa = PBXGroup;
+			children = (
+				91A899CD23C8A35000ECED74 /* BatmanLocations.plist */,
+				91A899CE23C8A35000ECED74 /* EntranceToGoliathRoute.plist */,
+				91A899D223C8A35100ECED74 /* MagicMountain.plist */,
+				91A899D123C8A35100ECED74 /* MagicMountainAttractions.plist */,
+				91A899D023C8A35000ECED74 /* TazLocations.plist */,
+				91A899CF23C8A35000ECED74 /* TweetyBirdLocations.plist */,
+			);
+			path = "Park Information";
+			sourceTree = "<group>";
+		};
+		91A899D923C8A39200ECED74 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				913F9B8623CA07D7001FAF7D /* Park.swift */,
+				913F9B9023CA5D98001FAF7D /* Character.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		91A899DA23C8A3AF00ECED74 /* Overlays */ = {
+			isa = PBXGroup;
+			children = (
+				913F9B8823CA380D001FAF7D /* ParkMapOverlay.swift */,
+				913F9B8A23CA38FB001FAF7D /* ParkMapOverlayView.swift */,
+			);
+			path = Overlays;
+			sourceTree = "<group>";
+		};
+		91A899DB23C8A3C800ECED74 /* ParkView ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				91A899DC23C8B0D100ECED74 /* ParkMapViewController.swift */,
+				91A899DE23C8B0F300ECED74 /* MapOptionsViewController.swift */,
+			);
+			path = "ParkView ViewControllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +216,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91A899D723C8A35100ECED74 /* MagicMountainAttractions.plist in Resources */,
+				91A899C423C763EC00ECED74 /* PublicArt.json in Resources */,
 				91A899BC23C74DBD00ECED74 /* LaunchScreen.storyboard in Resources */,
+				91A899D823C8A35100ECED74 /* MagicMountain.plist in Resources */,
+				91A899D523C8A35100ECED74 /* TweetyBirdLocations.plist in Resources */,
+				91A899D323C8A35100ECED74 /* BatmanLocations.plist in Resources */,
 				91A899B923C74DBD00ECED74 /* Assets.xcassets in Resources */,
+				91A899D423C8A35100ECED74 /* EntranceToGoliathRoute.plist in Resources */,
 				91A899B723C74DBA00ECED74 /* Main.storyboard in Resources */,
+				91A899D623C8A35100ECED74 /* TazLocations.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +236,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				913F9B9123CA5D98001FAF7D /* Character.swift in Sources */,
+				913F9B8D23CA3F99001FAF7D /* AttractionAnnotation.swift in Sources */,
+				913F9B8B23CA38FB001FAF7D /* ParkMapOverlayView.swift in Sources */,
 				91A899B423C74DB900ECED74 /* ViewController.swift in Sources */,
+				91A899C823C8644A00ECED74 /* ArtworkViews.swift in Sources */,
 				91A899B023C74DB900ECED74 /* AppDelegate.swift in Sources */,
+				913F9B8723CA07D7001FAF7D /* Park.swift in Sources */,
+				91A899DD23C8B0D100ECED74 /* ParkMapViewController.swift in Sources */,
+				913F9B8923CA380D001FAF7D /* ParkMapOverlay.swift in Sources */,
+				913F9B8F23CA4213001FAF7D /* AttractionAnnotationView.swift in Sources */,
+				91A899C623C766B300ECED74 /* Artwork.swift in Sources */,
 				91A899B223C74DB900ECED74 /* SceneDelegate.swift in Sources */,
+				91A899DF23C8B0F300ECED74 /* MapOptionsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +393,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 76NANZTYJ2;
 				INFOPLIST_FILE = MapViewTutorial/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -302,6 +411,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 76NANZTYJ2;
 				INFOPLIST_FILE = MapViewTutorial/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
